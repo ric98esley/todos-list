@@ -1,0 +1,19 @@
+.TodoSearch {
+    width: calc(100vw - 46px);
+    height: 35px;
+    text-align: center;
+    border-radius: 16px;
+    font-size: 16px;
+    border: 2px solid var(--light-purple);
+    background-color: var(--white-text) 0.9;
+    font-weight: 400;
+    color: var(--black-text);
+}
+.TodoSearch::placeholder {
+    color: var(--white-text);
+    font-weight: 300;
+}
+
+.TodoSearch:focus {
+    outline-color: var(--purple);
+}
